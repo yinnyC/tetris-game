@@ -10,11 +10,13 @@ export const gridDefault = () => {
 
   // Fill array with 18 arrays each containing
   // 10 zeros (0)
-  for(let row=0; row < rows; row++){
-    for(let col=0; col < cols; col ++){
+  for (let row = 0; row < rows; row++) {
+    array.push([])
+    for (let col = 0; col < cols; col++) {
+      
       array[row].push(0)
     }
-  }
+}
   return array
 }
 
